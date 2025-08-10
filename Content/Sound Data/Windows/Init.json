@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\Content\\Sound Data\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "889750878",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Reverb",
+      "GUID": "{62994412-050F-4A44-83F1-06D78A27B439}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFXVolume",
+      "GUID": "{07246238-EF1F-4EE3-B26B-4CF6D5D6FD7D}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{A00886C5-E994-4331-A830-25652D8BA3E9}"
+     }
+    ]
+   }
+  ]
+ }
+}

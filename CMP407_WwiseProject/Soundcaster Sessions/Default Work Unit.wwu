@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E4D8CD7-B050-49AC-A42A-70CAE219E1F6}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{1E4D8CD7-B050-49AC-A42A-70CAE219E1F6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Soundcaster" ID="{5ED9F0CB-8367-4E56-B920-6699B26B9A40}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{A00886C5-E994-4331-A830-25652D8BA3E9}"/>
+							<Value>0.35</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerSpeed" ID="{050CE668-18EB-4C5D-9FD1-A18C3ED9536F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TargetHeadHit" ID="{3588AB39-5CC2-4CD0-9203-A8EA5D3E7FC0}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{07246238-EF1F-4EE3-B26B-4CF6D5D6FD7D}"/>
+							<Value>0.860151642796967</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Lobby" ID="{7C997B64-811F-4794-A67C-D785A8EA8D0B}"/>
+						<CurrentStateRef Name="None" ID="{F2E80D4E-1ABD-4718-93D1-C0774263C83D}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Concrete" ID="{239FBD38-3C79-48A2-9D77-A42B3143CF2F}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,1027 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\Content\\Sound Data\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\shane\\OneDrive\\Documents\\Unreal Projects\\CMP407\\CMP407_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "GUID": "{961119A6-9492-4F3A-8BF8-C617BD657468}",
+    "Language": "SFX",
+    "Hash": "1111698033",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1660008929",
+      "Name": "Play_Door_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Door_Open",
+      "GUID": "{730B4455-E68B-4C16-9892-021EA6DC49BF}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.822086",
+      "DurationMax": "0.822086",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1012059591",
+        "Language": "SFX",
+        "ShortName": "Door Open.wav",
+        "Path": "SFX\\Door Open_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3621014260",
+      "Name": "Play_Elevator",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Elevator",
+      "GUID": "{CD9D23A2-5D14-465B-8096-6C695D6AD5BA}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "49880783",
+        "Language": "SFX",
+        "ShortName": "Elevator.wav",
+        "Path": "SFX\\Elevator_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3787095914",
+      "Name": "Play_Elevator_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Elevator_End",
+      "GUID": "{729E0893-3842-4A76-A7BE-B87A1CF95B25}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "2.423502",
+      "DurationMax": "2.423502",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "661952815",
+        "Language": "SFX",
+        "ShortName": "Target Hit.wav",
+        "Path": "SFX\\Target Hit_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4048765651",
+      "Name": "Play_Fire_Ambient",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fire_Ambient",
+      "GUID": "{A2ADE052-E32A-4F3C-BF4A-86E226B8658C}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1028624151",
+        "Language": "SFX",
+        "ShortName": "fire_burning_flames_crackle_loop_01.wav",
+        "Path": "SFX\\fire_burning_flames_crackle_loop_01_9EDFC787.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{0350F5F3-58DD-4AC6-B80E-30318F1E56A9}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.184402",
+      "DurationMax": "0.517631",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "42528033",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_04.wav",
+        "Path": "SFX\\footstep_grass_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "83141341",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_07.wav",
+        "Path": "SFX\\footstep_grass_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "105201144",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_07.wav",
+        "Path": "SFX\\footstep_concrete_run_07_10C4C929.wem"
+       },
+       {
+        "Id": "139460704",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_08.wav",
+        "Path": "SFX\\footstep_concrete_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "212525960",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_05.wav",
+        "Path": "SFX\\footstep_grass_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "260929422",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_05.wav",
+        "Path": "SFX\\footstep_concrete_run_05_10C4C929.wem"
+       },
+       {
+        "Id": "346560171",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_09.wav",
+        "Path": "SFX\\footstep_grass_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "354459147",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_08.wav",
+        "Path": "SFX\\footstep_grass_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "396822933",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_04.wav",
+        "Path": "SFX\\footstep_concrete_run_04_10C4C929.wem"
+       },
+       {
+        "Id": "464424650",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_02.wav",
+        "Path": "SFX\\footstep_grass_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "504507636",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_06.wav",
+        "Path": "SFX\\footstep_grass_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "644406372",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_01.wav",
+        "Path": "SFX\\footstep_concrete_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "668186418",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_03.wav",
+        "Path": "SFX\\footstep_grass_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "874569112",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_06.wav",
+        "Path": "SFX\\footstep_concrete_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "942004439",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_09.wav",
+        "Path": "SFX\\footstep_concrete_run_09_10C4C929.wem"
+       },
+       {
+        "Id": "968611234",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_10.wav",
+        "Path": "SFX\\footstep_grass_run_10_10C4C929.wem"
+       },
+       {
+        "Id": "997582196",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_02.wav",
+        "Path": "SFX\\footstep_concrete_run_02_10C4C929.wem"
+       },
+       {
+        "Id": "1003668925",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_run_01.wav",
+        "Path": "SFX\\footstep_grass_run_01_10C4C929.wem"
+       },
+       {
+        "Id": "1003984779",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_03.wav",
+        "Path": "SFX\\footstep_concrete_run_03_10C4C929.wem"
+       },
+       {
+        "Id": "1072069060",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_run_10.wav",
+        "Path": "SFX\\footstep_concrete_run_10_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{239FBD38-3C79-48A2-9D77-A42B3143CF2F}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{239FBD38-3C79-48A2-9D77-A42B3143CF2F}",
+        "Media": [
+         {
+          "Id": "105201144"
+         },
+         {
+          "Id": "139460704"
+         },
+         {
+          "Id": "260929422"
+         },
+         {
+          "Id": "396822933"
+         },
+         {
+          "Id": "644406372"
+         },
+         {
+          "Id": "874569112"
+         },
+         {
+          "Id": "942004439"
+         },
+         {
+          "Id": "997582196"
+         },
+         {
+          "Id": "1003984779"
+         },
+         {
+          "Id": "1072069060"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8A00B992-916E-4CC1-A016-15594B3EB5FB}",
+        "Media": [
+         {
+          "Id": "42528033"
+         },
+         {
+          "Id": "83141341"
+         },
+         {
+          "Id": "212525960"
+         },
+         {
+          "Id": "346560171"
+         },
+         {
+          "Id": "354459147"
+         },
+         {
+          "Id": "464424650"
+         },
+         {
+          "Id": "504507636"
+         },
+         {
+          "Id": "668186418"
+         },
+         {
+          "Id": "968611234"
+         },
+         {
+          "Id": "1003668925"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "979174855",
+      "Name": "Play_Gun_Fire",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gun_Fire",
+      "GUID": "{4B37EDDE-8969-46A0-BB27-F1F3738AC7B4}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.527226",
+      "DurationMax": "0.664263",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "290650468",
+        "Language": "SFX",
+        "ShortName": "Gun Fire.wav",
+        "Path": "SFX\\Gun Fire_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "889160563",
+      "Name": "Play_Gun_Pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gun_Pickup",
+      "GUID": "{C1EDBDEB-D94C-4E81-8607-7E0D5BB82A5F}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.05",
+      "DurationMax": "1.05",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "330136862",
+        "Language": "SFX",
+        "ShortName": "Gun Pickup.wav",
+        "Path": "SFX\\Gun Pickup_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2323405115",
+      "Name": "Play_Landing",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Landing",
+      "GUID": "{C9FD015B-F0D8-4328-B1A4-9B663A106845}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.360925",
+      "DurationMax": "0.923473",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "337457496",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_land_06.wav",
+        "Path": "SFX\\footstep_grass_land_06_10C4C929.wem"
+       },
+       {
+        "Id": "375501096",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_land_v2_02.wav",
+        "Path": "SFX\\footstep_concrete_land_v2_02_10C4C929.wem"
+       },
+       {
+        "Id": "401211991",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_land_v2_04.wav",
+        "Path": "SFX\\footstep_concrete_land_v2_04_10C4C929.wem"
+       },
+       {
+        "Id": "456839655",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_land_03.wav",
+        "Path": "SFX\\footstep_grass_land_03_10C4C929.wem"
+       },
+       {
+        "Id": "797789747",
+        "Language": "SFX",
+        "ShortName": "footstep_grass_land_04.wav",
+        "Path": "SFX\\footstep_grass_land_04_10C4C929.wem"
+       },
+       {
+        "Id": "936675301",
+        "Language": "SFX",
+        "ShortName": "footstep_concrete_land_v2_03.wav",
+        "Path": "SFX\\footstep_concrete_land_v2_03_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{239FBD38-3C79-48A2-9D77-A42B3143CF2F}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{239FBD38-3C79-48A2-9D77-A42B3143CF2F}",
+        "Media": [
+         {
+          "Id": "375501096"
+         },
+         {
+          "Id": "401211991"
+         },
+         {
+          "Id": "936675301"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8A00B992-916E-4CC1-A016-15594B3EB5FB}",
+        "Media": [
+         {
+          "Id": "337457496"
+         },
+         {
+          "Id": "456839655"
+         },
+         {
+          "Id": "797789747"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "359288770",
+      "Name": "Play_Laser_Bounce",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Laser_Bounce",
+      "GUID": "{6517C924-B983-45BA-AD16-1344F049EA2C}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.239016",
+      "DurationMax": "0.239016",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "800645069",
+        "Language": "SFX",
+        "ShortName": "Laser Bounce.wav",
+        "Path": "SFX\\Laser Bounce_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "383282545",
+      "Name": "Play_Laser_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Laser_End",
+      "GUID": "{32B4849B-F16F-41C9-96CC-CDB8F2071439}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.61636",
+      "DurationMax": "0.61636",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "800645069",
+        "Language": "SFX",
+        "ShortName": "Laser Bounce.wav",
+        "Path": "SFX\\Laser Bounce_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "856623310",
+      "Name": "Play_Laser_Travel",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Laser_Travel",
+      "GUID": "{1FD78BD2-5B94-4F99-A5A5-DBA6388E9871}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1026995224",
+        "Language": "SFX",
+        "ShortName": "electric_sparks_lightning_loop1.wav",
+        "Path": "SFX\\electric_sparks_lightning_loop1_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "365318234",
+      "Name": "Play_Respawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Respawn",
+      "GUID": "{56E6ECD7-94D3-4853-B372-25FD153C09A1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.73449",
+      "DurationMax": "1.73449",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "461986385",
+        "Language": "SFX",
+        "ShortName": "cinematic_buildup_reverse_whoosh_01.wav",
+        "Path": "SFX\\cinematic_buildup_reverse_whoosh_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2284489407",
+      "Name": "Play_Target_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Target_Hit",
+      "GUID": "{691C72AB-4BD8-4064-A517-E57EC4D249E7}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "1.571447",
+      "DurationMax": "1.571447",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "661952815",
+        "Language": "SFX",
+        "ShortName": "Target Hit.wav",
+        "Path": "SFX\\Target Hit_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "761808826",
+      "Name": "Play_Target_Moving",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Target_Moving",
+      "GUID": "{02C745C8-D40E-45CC-A563-5642C7550312}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "542964951",
+        "Language": "SFX",
+        "ShortName": "Target Moving.wav",
+        "Path": "SFX\\Target Moving_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3632621676",
+      "Name": "Play_Target_Raised",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Target_Raised",
+      "GUID": "{323DF7E5-F67F-4F91-9706-11BE2F4B4D38}",
+      "MaxAttenuation": "2500.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.446178",
+      "DurationMax": "0.446178",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "496701005",
+        "Language": "SFX",
+        "ShortName": "whoosh_swish_high_big_03.wav",
+        "Path": "SFX\\whoosh_swish_high_big_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "540993415",
+      "Name": "Start_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Start_Music",
+      "GUID": "{566FB2FA-1A8E-4AC5-B385-85B8584238A6}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "85384864",
+        "Language": "SFX",
+        "ShortName": "Level 3 Shanes Shooter Demo V2.wav",
+        "Path": "SFX\\Level 3 Shanes Shooter Demo V2_9EDFC787.wem"
+       },
+       {
+        "Id": "117521049",
+        "Language": "SFX",
+        "ShortName": "Menu Distorted Guitar.wav",
+        "Path": "SFX\\Menu Distorted Guitar_9EDFC787.wem"
+       },
+       {
+        "Id": "562238223",
+        "Language": "SFX",
+        "ShortName": "Lobby Distorted Guitar.wav",
+        "Path": "SFX\\Lobby Distorted Guitar_9EDFC787.wem"
+       },
+       {
+        "Id": "590271758",
+        "Language": "SFX",
+        "ShortName": "Lobby Drums.wav",
+        "Path": "SFX\\Lobby Drums_9EDFC787.wem"
+       },
+       {
+        "Id": "696305988",
+        "Language": "SFX",
+        "ShortName": "Level 2 Shanes Shooter Demo V2.wav",
+        "Path": "SFX\\Level 2 Shanes Shooter Demo V2_9EDFC787.wem"
+       },
+       {
+        "Id": "971788996",
+        "Language": "SFX",
+        "ShortName": "Pick Slide.wav",
+        "Path": "SFX\\Pick Slide_9EDFC787.wem"
+       },
+       {
+        "Id": "1050282622",
+        "Language": "SFX",
+        "ShortName": "Level 1 Shanes Shooter Demo V.2.wav",
+        "Path": "SFX\\Level 1 Shanes Shooter Demo V.2_9EDFC787.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{599B4DFE-169A-477D-8CA8-956C136DD816}",
+        "Children": [
+         {
+          "SwitchValue": "{D407973E-AE10-4287-87FC-9A2586E44969}",
+          "Media": [
+           {
+            "Id": "696305988"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{5B52F48E-1672-45EA-AED2-D44985E2DE41}",
+          "Media": [
+           {
+            "Id": "85384864"
+           },
+           {
+            "Id": "971788996"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{CCF16BFA-743A-4BC1-B680-0037301AB801}",
+          "Media": [
+           {
+            "Id": "1050282622"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7C997B64-811F-4794-A67C-D785A8EA8D0B}",
+        "Media": [
+         {
+          "Id": "562238223"
+         },
+         {
+          "Id": "590271758"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8C1A6555-8DBE-4A1A-BC31-5071C8877F31}",
+        "Media": [
+         {
+          "Id": "117521049"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "895316894",
+      "Name": "Stop_Elevator",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Elevator",
+      "GUID": "{65564E81-9C7F-4878-9B97-D0507B3E1703}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionPostEvent": [
+       {
+        "Id": "3787095914",
+        "Name": "Play_Elevator_End",
+        "ObjectPath": "\\Events\\Default Work Unit\\Play_Elevator_End",
+        "GUID": "{729E0893-3842-4A76-A7BE-B87A1CF95B25}"
+       }
+      ]
+     },
+     {
+      "Id": "4081714128",
+      "Name": "Stop_Target_Moving",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Target_Moving",
+      "GUID": "{04A44FDE-3166-4949-B049-D24EC7BC74D4}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ],
+    "IncludedAuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Reverb",
+      "GUID": "{62994412-050F-4A44-83F1-06D78A27B439}"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "42528033",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_04.wav",
+      "Path": "SFX\\footstep_grass_run_04_10C4C929.wem"
+     },
+     {
+      "Id": "49880783",
+      "Language": "SFX",
+      "ShortName": "Elevator.wav",
+      "Path": "SFX\\Elevator_D79FB2B7.wem"
+     },
+     {
+      "Id": "83141341",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_07.wav",
+      "Path": "SFX\\footstep_grass_run_07_10C4C929.wem"
+     },
+     {
+      "Id": "105201144",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_07.wav",
+      "Path": "SFX\\footstep_concrete_run_07_10C4C929.wem"
+     },
+     {
+      "Id": "117521049",
+      "Language": "SFX",
+      "ShortName": "Menu Distorted Guitar.wav",
+      "Path": "SFX\\Menu Distorted Guitar_9EDFC787.wem"
+     },
+     {
+      "Id": "139460704",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_08.wav",
+      "Path": "SFX\\footstep_concrete_run_08_10C4C929.wem"
+     },
+     {
+      "Id": "212525960",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_05.wav",
+      "Path": "SFX\\footstep_grass_run_05_10C4C929.wem"
+     },
+     {
+      "Id": "260929422",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_05.wav",
+      "Path": "SFX\\footstep_concrete_run_05_10C4C929.wem"
+     },
+     {
+      "Id": "290650468",
+      "Language": "SFX",
+      "ShortName": "Gun Fire.wav",
+      "Path": "SFX\\Gun Fire_10C4C929.wem"
+     },
+     {
+      "Id": "330136862",
+      "Language": "SFX",
+      "ShortName": "Gun Pickup.wav",
+      "Path": "SFX\\Gun Pickup_10C4C929.wem"
+     },
+     {
+      "Id": "337457496",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_land_06.wav",
+      "Path": "SFX\\footstep_grass_land_06_10C4C929.wem"
+     },
+     {
+      "Id": "346560171",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_09.wav",
+      "Path": "SFX\\footstep_grass_run_09_10C4C929.wem"
+     },
+     {
+      "Id": "354459147",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_08.wav",
+      "Path": "SFX\\footstep_grass_run_08_10C4C929.wem"
+     },
+     {
+      "Id": "375501096",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_land_v2_02.wav",
+      "Path": "SFX\\footstep_concrete_land_v2_02_10C4C929.wem"
+     },
+     {
+      "Id": "396822933",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_04.wav",
+      "Path": "SFX\\footstep_concrete_run_04_10C4C929.wem"
+     },
+     {
+      "Id": "401211991",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_land_v2_04.wav",
+      "Path": "SFX\\footstep_concrete_land_v2_04_10C4C929.wem"
+     },
+     {
+      "Id": "456839655",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_land_03.wav",
+      "Path": "SFX\\footstep_grass_land_03_10C4C929.wem"
+     },
+     {
+      "Id": "461986385",
+      "Language": "SFX",
+      "ShortName": "cinematic_buildup_reverse_whoosh_01.wav",
+      "Path": "SFX\\cinematic_buildup_reverse_whoosh_01_10C4C929.wem"
+     },
+     {
+      "Id": "464424650",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_02.wav",
+      "Path": "SFX\\footstep_grass_run_02_10C4C929.wem"
+     },
+     {
+      "Id": "496701005",
+      "Language": "SFX",
+      "ShortName": "whoosh_swish_high_big_03.wav",
+      "Path": "SFX\\whoosh_swish_high_big_03_10C4C929.wem"
+     },
+     {
+      "Id": "504507636",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_06.wav",
+      "Path": "SFX\\footstep_grass_run_06_10C4C929.wem"
+     },
+     {
+      "Id": "542964951",
+      "Language": "SFX",
+      "ShortName": "Target Moving.wav",
+      "Path": "SFX\\Target Moving_D79FB2B7.wem"
+     },
+     {
+      "Id": "562238223",
+      "Language": "SFX",
+      "ShortName": "Lobby Distorted Guitar.wav",
+      "Path": "SFX\\Lobby Distorted Guitar_9EDFC787.wem"
+     },
+     {
+      "Id": "590271758",
+      "Language": "SFX",
+      "ShortName": "Lobby Drums.wav",
+      "Path": "SFX\\Lobby Drums_9EDFC787.wem"
+     },
+     {
+      "Id": "644406372",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_01.wav",
+      "Path": "SFX\\footstep_concrete_run_01_10C4C929.wem"
+     },
+     {
+      "Id": "661952815",
+      "Language": "SFX",
+      "ShortName": "Target Hit.wav",
+      "Path": "SFX\\Target Hit_10C4C929.wem"
+     },
+     {
+      "Id": "668186418",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_03.wav",
+      "Path": "SFX\\footstep_grass_run_03_10C4C929.wem"
+     },
+     {
+      "Id": "797789747",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_land_04.wav",
+      "Path": "SFX\\footstep_grass_land_04_10C4C929.wem"
+     },
+     {
+      "Id": "800645069",
+      "Language": "SFX",
+      "ShortName": "Laser Bounce.wav",
+      "Path": "SFX\\Laser Bounce_10C4C929.wem"
+     },
+     {
+      "Id": "874569112",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_06.wav",
+      "Path": "SFX\\footstep_concrete_run_06_10C4C929.wem"
+     },
+     {
+      "Id": "936675301",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_land_v2_03.wav",
+      "Path": "SFX\\footstep_concrete_land_v2_03_10C4C929.wem"
+     },
+     {
+      "Id": "942004439",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_09.wav",
+      "Path": "SFX\\footstep_concrete_run_09_10C4C929.wem"
+     },
+     {
+      "Id": "968611234",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_10.wav",
+      "Path": "SFX\\footstep_grass_run_10_10C4C929.wem"
+     },
+     {
+      "Id": "997582196",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_02.wav",
+      "Path": "SFX\\footstep_concrete_run_02_10C4C929.wem"
+     },
+     {
+      "Id": "1003668925",
+      "Language": "SFX",
+      "ShortName": "footstep_grass_run_01.wav",
+      "Path": "SFX\\footstep_grass_run_01_10C4C929.wem"
+     },
+     {
+      "Id": "1003984779",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_03.wav",
+      "Path": "SFX\\footstep_concrete_run_03_10C4C929.wem"
+     },
+     {
+      "Id": "1012059591",
+      "Language": "SFX",
+      "ShortName": "Door Open.wav",
+      "Path": "SFX\\Door Open_10C4C929.wem"
+     },
+     {
+      "Id": "1026995224",
+      "Language": "SFX",
+      "ShortName": "electric_sparks_lightning_loop1.wav",
+      "Path": "SFX\\electric_sparks_lightning_loop1_D79FB2B7.wem"
+     },
+     {
+      "Id": "1028624151",
+      "Language": "SFX",
+      "ShortName": "fire_burning_flames_crackle_loop_01.wav",
+      "Path": "SFX\\fire_burning_flames_crackle_loop_01_9EDFC787.wem"
+     },
+     {
+      "Id": "1072069060",
+      "Language": "SFX",
+      "ShortName": "footstep_concrete_run_10.wav",
+      "Path": "SFX\\footstep_concrete_run_10_10C4C929.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "988953028",
+      "Name": "SFXVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\SFXVolume",
+      "GUID": "{07246238-EF1F-4EE3-B26B-4CF6D5D6FD7D}"
+     },
+     {
+      "Id": "1922690251",
+      "Name": "TargetHeadHit",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\TargetHeadHit",
+      "GUID": "{3588AB39-5CC2-4CD0-9203-A8EA5D3E7FC0}"
+     },
+     {
+      "Id": "2346531308",
+      "Name": "MusicVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\MusicVolume",
+      "GUID": "{A00886C5-E994-4331-A830-25652D8BA3E9}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3161908922",
+      "Name": "Main",
+      "ObjectPath": "\\States\\Default Work Unit\\Main",
+      "GUID": "{58CB7CC3-704B-402B-8132-877F00095DE0}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Main\\None",
+        "GUID": "{6B03B8CC-52B3-4F41-BB38-CE4979CFCFDB}"
+       },
+       {
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\Main\\Menu",
+        "GUID": "{8C1A6555-8DBE-4A1A-BC31-5071C8877F31}"
+       },
+       {
+        "Id": "290285391",
+        "Name": "Lobby",
+        "ObjectPath": "\\States\\Default Work Unit\\Main\\Lobby",
+        "GUID": "{7C997B64-811F-4794-A67C-D785A8EA8D0B}"
+       },
+       {
+        "Id": "2782712965",
+        "Name": "Level",
+        "ObjectPath": "\\States\\Default Work Unit\\Main\\Level",
+        "GUID": "{599B4DFE-169A-477D-8CA8-956C136DD816}"
+       }
+      ]
+     },
+     {
+      "Id": "3300561577",
+      "Name": "LevelPhases",
+      "ObjectPath": "\\States\\Default Work Unit\\LevelPhases",
+      "GUID": "{A8C2F6A2-533C-4C67-AD41-C303267FD765}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelPhases\\None",
+        "GUID": "{F2E80D4E-1ABD-4718-93D1-C0774263C83D}"
+       },
+       {
+        "Id": "3630028971",
+        "Name": "Phase1",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelPhases\\Phase1",
+        "GUID": "{CCF16BFA-743A-4BC1-B680-0037301AB801}"
+       },
+       {
+        "Id": "3630028968",
+        "Name": "Phase2",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelPhases\\Phase2",
+        "GUID": "{D407973E-AE10-4287-87FC-9A2586E44969}"
+       },
+       {
+        "Id": "3630028969",
+        "Name": "Phase3",
+        "ObjectPath": "\\States\\Default Work Unit\\LevelPhases\\Phase3",
+        "GUID": "{5B52F48E-1672-45EA-AED2-D44985E2DE41}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{F179229E-2CCC-47B3-B79C-9DDCECAAAE5E}",
+      "Switches": [
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{8A00B992-916E-4CC1-A016-15594B3EB5FB}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{239FBD38-3C79-48A2-9D77-A42B3143CF2F}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

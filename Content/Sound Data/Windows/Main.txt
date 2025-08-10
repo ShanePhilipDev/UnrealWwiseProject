@@ -1,0 +1,109 @@
+Event	ID	Name			Wwise Object Path	Notes
+	359288770	Play_Laser_Bounce			\Default Work Unit\Play_Laser_Bounce	
+	365318234	Play_Respawn			\Default Work Unit\Play_Respawn	
+	383282545	Play_Laser_End			\Default Work Unit\Play_Laser_End	
+	540993415	Start_Music			\Default Work Unit\Start_Music	
+	761808826	Play_Target_Moving			\Default Work Unit\Play_Target_Moving	
+	856623310	Play_Laser_Travel			\Default Work Unit\Play_Laser_Travel	
+	889160563	Play_Gun_Pickup			\Default Work Unit\Play_Gun_Pickup	
+	895316894	Stop_Elevator			\Default Work Unit\Stop_Elevator	
+	979174855	Play_Gun_Fire			\Default Work Unit\Play_Gun_Fire	
+	1660008929	Play_Door_Open			\Default Work Unit\Play_Door_Open	
+	2284489407	Play_Target_Hit			\Default Work Unit\Play_Target_Hit	
+	2323405115	Play_Landing			\Default Work Unit\Play_Landing	
+	3621014260	Play_Elevator			\Default Work Unit\Play_Elevator	
+	3632621676	Play_Target_Raised			\Default Work Unit\Play_Target_Raised	
+	3787095914	Play_Elevator_End			\Default Work Unit\Play_Elevator_End	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+	4048765651	Play_Fire_Ambient			\Default Work Unit\Play_Fire_Ambient	
+	4081714128	Stop_Target_Moving			\Default Work Unit\Stop_Target_Moving	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	Surface			
+	4248645337	Grass	Surface			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3161908922	Main			\Default Work Unit\Main	
+	3300561577	LevelPhases			\Default Work Unit\LevelPhases	
+
+State	ID	Name	State Group			Notes
+	290285391	Lobby	Main			
+	748895195	None	Main			
+	2607556080	Menu	Main			
+	2782712965	Level	Main			
+	748895195	None	LevelPhases			
+	3630028968	Phase2	LevelPhases			
+	3630028969	Phase3	LevelPhases			
+	3630028971	Phase1	LevelPhases			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	92500043	Level	Main	\Interactive Music Hierarchy\Default Work Unit\Main\Menu Playlist\Menu		
+	162653879	Menu	Main	\Interactive Music Hierarchy\Default Work Unit\Main\Lobby Playlist\Lobby		
+	579303599	Lobby	Main	\Interactive Music Hierarchy\Default Work Unit\Main\Menu Playlist\Menu		
+	1026346300	Level	Main	\Interactive Music Hierarchy\Default Work Unit\Main\Lobby Playlist\Lobby		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	1922690251	TargetHeadHit			\Default Work Unit\TargetHeadHit	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\SFX\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42528033	footstep_grass_run_04	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_04		36576
+	49880783	Elevator	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Elevator_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Elevator		464284
+	83141341	footstep_grass_run_07	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_07_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_07		73564
+	85384864	Joe Music Phase 3	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Level 3 Shanes Shooter Demo V2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Level\Phase 3 Playlist\Phase 3\Joe Music Phase 3		171190
+	105201144	footstep_concrete_run_07	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_07_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_07		47348
+	117521049	Guitar	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Menu Distorted Guitar_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Menu Playlist\Menu\Guitar		253411
+	139460704	footstep_concrete_run_08	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_08		52984
+	212525960	footstep_grass_run_05	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_05		55004
+	260929422	footstep_concrete_run_05	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_05_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_05		52984
+	290650468	Gun Fire	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Gun Fire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Gun Fire		104456
+	330136862	Gun Pickup	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Gun Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Gun Pickup		185284
+	337457496	footstep_grass_land_06	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_land_06_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Grass\footstep_grass_land_06		89796
+	346560171	footstep_grass_run_09	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_09_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_09		60368
+	354459147	footstep_grass_run_08	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_08		81412
+	375501096	footstep_concrete_land_v2_02	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_land_v2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Concrete\footstep_concrete_land_v2_02		84112
+	396822933	footstep_concrete_run_04	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_04_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_04		50400
+	401211991	footstep_concrete_land_v2_04	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_land_v2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Concrete\footstep_concrete_land_v2_04		95356
+	456839655	footstep_grass_land_03	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Grass\footstep_grass_land_03		71528
+	461986385	Respawn	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\cinematic_buildup_reverse_whoosh_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Respawn		306028
+	464424650	footstep_grass_run_02	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_02		53800
+	496701005	Target Raised	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\whoosh_swish_high_big_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Target\Target Raised		44492
+	504507636	footstep_grass_run_06	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_06		61812
+	542964951	Target Moving	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Target Moving_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Target\Target Moving		705420
+	562238223	Guitar	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Lobby Distorted Guitar_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Lobby Playlist\Lobby\Guitar		168739
+	590271758	Drums	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Lobby Drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Lobby Playlist\Lobby\Drums		166833
+	644406372	footstep_concrete_run_01	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_01		41160
+	661952815	Target Hit	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Target Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Target\Target Hit		493984
+	668186418	footstep_grass_run_03	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_03		63900
+	696305988	Joe Music Phase 2	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Level 2 Shanes Shooter Demo V2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Level\Phase 2 Playlist\Phase 2\Joe Music Phase 2		204638
+	797789747	footstep_grass_land_04	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_land_04_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Grass\footstep_grass_land_04		74908
+	800645069	Laser End	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Laser Bounce_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Laser End		65464
+	874569112	footstep_concrete_run_06	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_06		58276
+	936675301	footstep_concrete_land_v2_03	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_land_v2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Landing\Concrete\footstep_concrete_land_v2_03		145192
+	942004439	footstep_concrete_run_09	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_09_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_09		52984
+	968611234	footstep_grass_run_10	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_10_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_10		40208
+	971788996	Transition	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Pick Slide_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Level\Phase 3 Playlist\Transition\Transition		11420
+	997582196	footstep_concrete_run_02	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_02_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_02		42400
+	1003668925	footstep_grass_run_01	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_grass_run_01_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Grass\footstep_grass_run_01		56628
+	1003984779	footstep_concrete_run_03	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_03_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_03		58656
+	1012059591	Door Open	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Door Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Door Open		145080
+	1026995224	Laser Travel	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\electric_sparks_lightning_loop1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gun\Laser Travel		540972
+	1028624151	Fire Ambient	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\fire_burning_flames_crackle_loop_01_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Fire Ambient		242196
+	1050282622	Joe Music Phase 1	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\Level 1 Shanes Shooter Demo V.2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Main\Level\Phase 1 Playlist\Phase 1\Joe Music Phase 1		203012
+	1072069060	footstep_concrete_run_10	C:\Users\shane\OneDrive\Documents\Unreal Projects\CMP407\CMP407_WwiseProject\.cache\Windows\SFX\footstep_concrete_run_10_10C4C929.wem		\Actor-Mixer Hierarchy\Footsteps\Walking\Concrete\footstep_concrete_run_10		45020
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C8D859D8-4819-4861-9142-0319B6B22945}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{C8D859D8-4819-4861-9142-0319B6B22945}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{961119A6-9492-4F3A-8BF8-C617BD657468}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Laser End" ID="{AFE67E5F-BF48-4043-98A4-B52F0899F51D}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Target_Hit" ID="{691C72AB-4BD8-4064-A517-E57EC4D249E7}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_03" ID="{AA450D6E-B193-4189-AABF-0361907B814A}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_07" ID="{D560A490-2683-4195-BC84-5B3195ADAC3B}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_02" ID="{A68FE4A8-9D2E-41A9-96BF-86459EE7EE49}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Laser_End" ID="{32B4849B-F16F-41C9-96CC-CDB8F2071439}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_land_04" ID="{8ADF6F82-C5B2-4277-B0EB-707A42556484}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_04" ID="{206105A7-4025-427C-A227-9456BD522BB6}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_03" ID="{DC337FFA-EC13-429F-B4A4-75BED584E056}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Target Hit" ID="{395C750D-9EC3-42DB-95D4-CC26DF7CBFF1}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Elevator" ID="{9F90B2C5-0641-42E5-93DE-FBAF3B76D331}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_land_v2_03" ID="{035FDEC9-4C6A-431F-9F2B-E50163258946}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_01" ID="{DC2B9DCB-DF63-4323-8B6D-2BD7E63BD9DD}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Landing" ID="{C9FD015B-F0D8-4328-B1A4-9B663A106845}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Guitar" ID="{746A5FF7-20BD-432D-903F-AF4C1FA19A91}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_02" ID="{5A55821B-CDD2-4338-BD0F-6806E97DE8A4}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_09" ID="{4FCEA9F2-B798-4352-A060-45F8B05CB25A}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire Ambient" ID="{3EB43872-D08F-43FB-8386-1E095D7C6DAE}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser Bounce" ID="{4C301E26-856E-4401-9251-ADDA7190A21C}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_01" ID="{F6205064-04D9-44B2-A681-5AA9B454BEAA}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_land_v2_04" ID="{2A409B20-6467-44C7-95BD-1B239C095B26}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_09" ID="{C7B11AA6-789F-44EB-AF74-7FC035422CB8}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_06" ID="{6DA7185B-7A6F-4548-B09B-37152FB6EF5C}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_10" ID="{8C6F5306-4F0A-454C-A64F-A6B381842DDE}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Laser_Bounce" ID="{6517C924-B983-45BA-AD16-1344F049EA2C}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Target_Moving" ID="{02C745C8-D40E-45CC-A563-5642C7550312}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_04" ID="{3CF9CB79-6C63-45D3-A398-A3570FF0B15C}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Elevator" ID="{CD9D23A2-5D14-465B-8096-6C695D6AD5BA}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser Travel" ID="{8BB8B786-8556-4681-833F-4CED978D4960}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_08" ID="{52E0ECA3-9EDF-468F-84F5-799A32E5FE8A}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Gun_Fire" ID="{4B37EDDE-8969-46A0-BB27-F1F3738AC7B4}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Target Moving" ID="{1ECA0E53-FFAF-4760-A463-F9FE6901103B}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun Pickup" ID="{2C6F8B2C-FAC3-47AB-8B6E-C76A2B49E1EE}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Target Raised" ID="{A4C11B31-3857-47EC-8D76-CC4D59178147}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 2 Guitar" ID="{4D025BD9-771A-4842-932A-18FF268F98EE}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Respawn" ID="{56E6ECD7-94D3-4853-B372-25FD153C09A1}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_05" ID="{1B56F3E8-816F-4859-A199-66E89024FFB4}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Elevator" ID="{65564E81-9C7F-4878-9B97-D0507B3E1703}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_10" ID="{39ED95B6-6192-48C3-9024-527D50540E1A}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_05" ID="{A4E517B7-B78E-48F2-93A9-F8DCE4F2144F}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Target_Moving" ID="{04A44FDE-3166-4949-B049-D24EC7BC74D4}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 3 Guitar" ID="{1611DFF0-604A-4996-BF93-BD443CD64D8F}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drums" ID="{5B12BE01-A2E4-4A75-ADF4-724288846D89}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Elevator_End" ID="{729E0893-3842-4A76-A7BE-B87A1CF95B25}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 3 Drums" ID="{650D6A9F-6AC4-4A93-B5F9-563181168653}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Elevator End" ID="{38A89EF6-0F49-4ABD-A315-D3D1038C7D15}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 1 Drums" ID="{0F2209CF-C679-4AC3-A1C0-1C6D005A5EDE}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Music" ID="{566FB2FA-1A8E-4AC5-B385-85B8584238A6}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{0350F5F3-58DD-4AC6-B80E-30318F1E56A9}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door Open" ID="{2331397B-90E7-4BBD-B34B-0E33C6AD6F1A}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Door_Open" ID="{730B4455-E68B-4C16-9892-021EA6DC49BF}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gun Fire" ID="{B61E18C1-C933-4C5B-B82E-D9E6F98630E4}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Respawn" ID="{54B6497D-C82B-4C68-BA77-F47FFB4B21F4}" WorkUnitID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_07" ID="{03241704-75C5-4CBA-B018-9D945381CFD2}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_land_v2_02" ID="{FDF4BDD4-AA6C-4DB0-9A0A-580FB07ABC00}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 1 Guitar" ID="{FFF9BA0A-7F6F-4DE5-97DA-7C4F1624772F}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Guitar" ID="{8C11CC3B-B1F4-4E13-BB10-65140E52D71F}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase 2 Drums" ID="{0DA65F60-A982-4E36-8016-3784792ED06E}" WorkUnitID="{C5456D5E-55B4-45FC-B090-FDA922EBCA34}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Gun_Pickup" ID="{C1EDBDEB-D94C-4E81-8607-7E0D5BB82A5F}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_run_08" ID="{CBDD280E-1549-4E95-8410-14D9525FA633}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_concrete_run_06" ID="{ACFE00C1-8F83-4EDB-AD66-4F050369047E}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fire_Ambient" ID="{A2ADE052-E32A-4F3C-BF4A-86E226B8658C}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_land_03" ID="{E2B23C66-B782-4F44-B29C-05805689036C}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Target_Raised" ID="{323DF7E5-F67F-4F91-9706-11BE2F4B4D38}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Laser_Travel" ID="{1FD78BD2-5B94-4F99-A5A5-DBA6388E9871}" WorkUnitID="{09458976-F6D7-4CD9-990D-E8A26029310A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{80C9991D-67E9-4FA7-9C34-D649EC980861}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footstep_grass_land_06" ID="{597FE071-490B-4FB8-ADD2-F126F81BDFE2}" WorkUnitID="{D13E2CE8-11BB-47D1-BA93-354F36139B82}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

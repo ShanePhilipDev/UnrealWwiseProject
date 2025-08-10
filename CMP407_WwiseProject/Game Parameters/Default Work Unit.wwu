@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{31BA22F7-457B-46F2-A0EC-731AA9527C8E}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{31BA22F7-457B-46F2-A0EC-731AA9527C8E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PlayerSpeed" ID="{050CE668-18EB-4C5D-9FD1-A18C3ED9536F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="900"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="TargetHeadHit" ID="{3588AB39-5CC2-4CD0-9203-A8EA5D3E7FC0}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFXVolume" ID="{07246238-EF1F-4EE3-B26B-4CF6D5D6FD7D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.75"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicVolume" ID="{A00886C5-E994-4331-A830-25652D8BA3E9}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.35"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{26CE23EF-08F0-4A27-AB3F-8E3B2D988BFE}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{26CE23EF-08F0-4A27-AB3F-8E3B2D988BFE}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Main" ID="{58CB7CC3-704B-402B-8132-877F00095DE0}">
+					<ChildrenList>
+						<State Name="None" ID="{6B03B8CC-52B3-4F41-BB38-CE4979CFCFDB}"/>
+						<State Name="Menu" ID="{8C1A6555-8DBE-4A1A-BC31-5071C8877F31}"/>
+						<State Name="Lobby" ID="{7C997B64-811F-4794-A67C-D785A8EA8D0B}"/>
+						<State Name="Level" ID="{599B4DFE-169A-477D-8CA8-956C136DD816}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="LevelPhases" ID="{A8C2F6A2-533C-4C67-AD41-C303267FD765}">
+					<ChildrenList>
+						<State Name="None" ID="{F2E80D4E-1ABD-4718-93D1-C0774263C83D}"/>
+						<State Name="Phase1" ID="{CCF16BFA-743A-4BC1-B680-0037301AB801}"/>
+						<State Name="Phase2" ID="{D407973E-AE10-4287-87FC-9A2586E44969}"/>
+						<State Name="Phase3" ID="{5B52F48E-1672-45EA-AED2-D44985E2DE41}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

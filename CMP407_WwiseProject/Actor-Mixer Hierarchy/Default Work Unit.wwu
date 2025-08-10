@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E8D00F2A-9C51-4405-A2D6-ACD7F8D8B3BC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Gun" ID="{9F6CB517-4EDE-40F3-8134-870BA1C24843}" ShortID="378535411">
+					<ChildrenList>
+						<Sound Name="Gun Fire" ID="{B61E18C1-C933-4C5B-B82E-D9E6F98630E4}" ShortID="523711605">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A8C8AD16-6B1B-4D8F-9C3E-E521428753BD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun Fire" ID="{D4536567-13ED-46B0-A737-CDB23033CBE2}">
+									<Language>SFX</Language>
+									<AudioFile>Gun Fire.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="290650468"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun Fire" ID="{D4536567-13ED-46B0-A737-CDB23033CBE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Gun Pickup" ID="{2C6F8B2C-FAC3-47AB-8B6E-C76A2B49E1EE}" ShortID="680884261">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gun Pickup" ID="{C3BA9673-A9E6-4047-9B07-DD4CBA292375}">
+									<Language>SFX</Language>
+									<AudioFile>Gun Pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="330136862"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Gun Pickup" ID="{C3BA9673-A9E6-4047-9B07-DD4CBA292375}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser Travel" ID="{8BB8B786-8556-4681-833F-4CED978D4960}" ShortID="504093959">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-830</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="electric_sparks_lightning_loop1" ID="{B48FC078-8198-468C-AE3B-A3F96F8AFEDA}">
+									<Language>SFX</Language>
+									<AudioFile>electric_sparks_lightning_loop1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1026995224"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="electric_sparks_lightning_loop1" ID="{B48FC078-8198-468C-AE3B-A3F96F8AFEDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser Bounce" ID="{4C301E26-856E-4401-9251-ADDA7190A21C}" ShortID="961212123">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>760</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser Bounce" ID="{15347740-ABEF-473C-9E04-09911E3A7B16}">
+									<Language>SFX</Language>
+									<AudioFile>Laser Bounce.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800645069"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser Bounce" ID="{15347740-ABEF-473C-9E04-09911E3A7B16}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Laser End" ID="{AFE67E5F-BF48-4043-98A4-B52F0899F51D}" ShortID="818308638">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-880</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Laser End" ID="{2B5B127D-532E-493C-B5F0-7B147A3CA2D4}">
+									<Language>SFX</Language>
+									<AudioFile>Laser End.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726375781"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="sci-fi_weapon_laser_small_05" ID="{9641CA5D-5249-498E-BA6D-31D49714966E}">
+									<Language>SFX</Language>
+									<AudioFile>sci-fi_weapon_laser_small_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397770581"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="sci-fi_weapon_laser_small_06" ID="{37252EF5-009C-4324-B4EB-9FE90E385F22}">
+									<Language>SFX</Language>
+									<AudioFile>sci-fi_weapon_laser_small_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="343026594"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Laser Bounce" ID="{80BB4D89-B873-48D0-A2FE-4E3752DD2977}">
+									<Language>SFX</Language>
+									<AudioFile>Laser Bounce.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="800645069"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Laser Bounce" ID="{80BB4D89-B873-48D0-A2FE-4E3752DD2977}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Target" ID="{BBC2D339-2E40-4261-BB6E-EB5CA1CFC63B}" ShortID="988717529">
+					<ChildrenList>
+						<Sound Name="Target Raised" ID="{A4C11B31-3857-47EC-8D76-CC4D59178147}" ShortID="401579529">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-990</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Target Raised" ID="{42FAF6EC-F86D-4B20-9DAD-FAF0959A46B1}">
+									<Language>SFX</Language>
+									<AudioFile>Target Raised.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="26382662"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="whoosh_swish_high_big_03" ID="{A6DDE19D-B9FF-4C23-B5A1-F2C81D511210}">
+									<Language>SFX</Language>
+									<AudioFile>whoosh_swish_high_big_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="496701005"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="whoosh_swish_high_big_03" ID="{A6DDE19D-B9FF-4C23-B5A1-F2C81D511210}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Target Moving" ID="{1ECA0E53-FFAF-4760-A463-F9FE6901103B}" ShortID="339815951">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-2400</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Target Moving" ID="{CA464266-227E-41DD-95F7-B9BD83850C03}">
+									<Language>SFX</Language>
+									<AudioFile>Target Moving.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="542964951"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Target Moving" ID="{CA464266-227E-41DD-95F7-B9BD83850C03}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Target Hit" ID="{395C750D-9EC3-42DB-95D4-CC26DF7CBFF1}" ShortID="149342965">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>1000</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{4C6A5D8F-57DA-432E-A5CD-946A187B9FF4}" ShortID="567882800">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="TargetHeadHit" ID="{3588AB39-5CC2-4CD0-9203-A8EA5D3E7FC0}" WorkUnitID="{31BA22F7-457B-46F2-A0EC-731AA9527C8E}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{88A887F8-BEE0-4B17-BC87-95CF35E12BCC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>500</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Target Hit" ID="{07D5E477-2AEF-4073-80FA-C6BE0F843554}">
+									<Language>SFX</Language>
+									<AudioFile>Target Hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="661952815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Target Hit" ID="{07D5E477-2AEF-4073-80FA-C6BE0F843554}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="World" ID="{0FFAB139-F66C-4CBA-A126-0E4DCA0D7A96}" ShortID="96258945">
+					<ChildrenList>
+						<Sound Name="Elevator" ID="{9F90B2C5-0641-42E5-93DE-FBAF3B76D331}" ShortID="663850938">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>330</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Elevator" ID="{0BB5B6D8-D72A-422F-A49C-E51E7DEC1E1F}">
+									<Language>SFX</Language>
+									<AudioFile>Elevator.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="49880783"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Elevator" ID="{0BB5B6D8-D72A-422F-A49C-E51E7DEC1E1F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Door Open" ID="{2331397B-90E7-4BBD-B34B-0E33C6AD6F1A}" ShortID="855511959">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door Open" ID="{66CAE466-A4E3-484F-B93D-CD045552E7A7}">
+									<Language>SFX</Language>
+									<AudioFile>Door Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1012059591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Door Open" ID="{66CAE466-A4E3-484F-B93D-CD045552E7A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Respawn" ID="{54B6497D-C82B-4C68-BA77-F47FFB4B21F4}" ShortID="682804794">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cinematic_buildup_reverse_whoosh_01" ID="{E0518D78-B736-479A-874D-817DDD283FC9}">
+									<Language>SFX</Language>
+									<AudioFile>cinematic_buildup_reverse_whoosh_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="461986385"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cinematic_buildup_reverse_whoosh_01" ID="{E0518D78-B736-479A-874D-817DDD283FC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Elevator End" ID="{38A89EF6-0F49-4ABD-A315-D3D1038C7D15}" ShortID="116494026">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>250</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AB0C15C8-0CBF-464C-A614-8AFED4B0B73C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Target Hit" ID="{431E8BCE-13D1-4AC4-A6FE-5A038D1DB7CC}">
+									<Language>SFX</Language>
+									<AudioFile>Target Hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="661952815"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Target Hit" ID="{431E8BCE-13D1-4AC4-A6FE-5A038D1DB7CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fire Ambient" ID="{3EB43872-D08F-43FB-8386-1E095D7C6DAE}" ShortID="957710103">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="DefaultAttenuation" ID="{C9440468-8921-48DF-B88F-8E46FE9E074D}" WorkUnitID="{6E898198-D90C-495C-BE3F-FB2864A0E072}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{910751EE-0AB7-4BEC-94D6-2874C68FF1A5}" WorkUnitID="{E6D3A087-76BC-4A0E-8CAA-E48D2FC39D98}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="fire_burning_flames_crackle_loop_01" ID="{7F6E0F59-3716-40D1-8E33-3AE53D7A1CE4}">
+									<Language>SFX</Language>
+									<AudioFile>fire_burning_flames_crackle_loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1028624151"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="fire_burning_flames_crackle_loop_01" ID="{7F6E0F59-3716-40D1-8E33-3AE53D7A1CE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

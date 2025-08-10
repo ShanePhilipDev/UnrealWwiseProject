@@ -1,0 +1,33 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3161908922	Main			\Default Work Unit\Main	
+	3300561577	LevelPhases			\Default Work Unit\LevelPhases	
+
+State	ID	Name	State Group			Notes
+	290285391	Lobby	Main			
+	748895195	None	Main			
+	2607556080	Menu	Main			
+	2782712965	Level	Main			
+	748895195	None	LevelPhases			
+	3630028968	Phase2	LevelPhases			
+	3630028969	Phase3	LevelPhases			
+	3630028971	Phase1	LevelPhases			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\SFX\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
